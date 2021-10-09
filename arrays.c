@@ -1,18 +1,18 @@
 #include <stdio.h> 
 int main()
-{
-   int list [4] ;
+{   // arrays in C programming 
+    int list [4] ;
     int i=0;
-    printf("ENter the array values\n");
+    printf("Enter the array values\n");
    for(i=0 ; i<5 ; i++)
    {
       scanf("%d",&list[i]);
        
    }
-
+// for print the values of arrays
 for(i=0 ; i<5 ; i++)
    {
-      printf("%d  ",list[i]);
+      printf("%d \n",list[i]);
        
    }
 
