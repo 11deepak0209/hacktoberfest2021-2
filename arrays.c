@@ -1,16 +1,19 @@
 #include <stdio.h> 
 int main()
 {
-    int n,i;
-    int arr[100];
-    scanf("%d",&n);
-    for (i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    for (i=0;i<n+1;i++){
-        if (arr[i]>arr[i+1]){
-            printf("%d\n",arr[i]);
-        }
-    }
-    return 0;
+   int list [4] ;
+    int i=0;
+    printf("ENter the array values\n");
+   for(i=0 ; i<5 ; i++)
+   {
+      scanf("%d",&list[i]);
+       
+   }
+
+for(i=0 ; i<5 ; i++)
+   {
+      printf("%d  ",list[i]);
+       
+   }
+
 }
